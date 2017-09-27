@@ -1,0 +1,46 @@
+body {
+	background: url("../images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 150px;
+    width: 150px;
+}
+.btn {
+    /* adding spacing between each button*/
+    margin: 3px;
+    
+    border-color: black;
+}
+.gifDiv{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+}
+.container {
+	background-color: #D3D3D3;
+	opacity: 0.8;
+	padding: 50px;
+}
+.jumbotron {
+    background-color: inherit;
+}
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
+}
+
+#header {
+	width: 80%;
+	padding: 5px;
+	color: black;
+	font-family: sans-serif;
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: #ADD8E6;
+}
